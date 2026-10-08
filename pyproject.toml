@@ -1,7 +1,7 @@
 [project]
-name = "dave-workflows"
+name = "ai-cookbook-anthropic"
 version = "0.1.0"
-description = "Anthropic SDK version of the examples from Dave Ebbelaar's video 'Building AI Agents in Pure Python - Beginner Course' (https://www.youtube.com/watch?v=bZzyPscbtI8)"
+description = "Anthropic SDK versions of the examples from Dave Ebbelaar's ai-cookbook (https://github.com/daveebbelaar/ai-cookbook)"
 readme = "README.md"
 authors = [
     { name = "Steph" }
