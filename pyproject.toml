@@ -1,0 +1,16 @@
+[project]
+name = "dave-workflows"
+version = "0.1.0"
+description = "Anthropic SDK version of the examples from Dave Ebbelaar's video 'Building AI Agents in Pure Python - Beginner Course' (https://www.youtube.com/watch?v=bZzyPscbtI8)"
+readme = "README.md"
+authors = [
+    { name = "Steph" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=1.11.0",
+    "ipykernel>=7.4.0",
+    "nest-asyncio2>=1.7.3",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
