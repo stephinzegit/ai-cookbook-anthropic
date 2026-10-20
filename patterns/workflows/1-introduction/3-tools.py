@@ -8,6 +8,9 @@ from pydantic import BaseModel, Field
 load_dotenv()
 client = anthropic.Anthropic()
 
+"""
+docs: https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview
+"""
 
 # --------------------------------------------------------------
 # Define the tool (function) that we want to call
@@ -106,6 +109,8 @@ for block in response.content:
         )
 
 
+# If Claude answers without calling the tool, tool_content is empty and the API
+# rejects this empty user message.
 messages += [{"role": "user", "content": tool_content}]
 
 # --------------------------------------------------------------
